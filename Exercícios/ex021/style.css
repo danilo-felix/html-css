@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: rgb(128, 128, 128);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+}
+
+nav > a:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+aside {
+    text-align: right;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>OUTRAS FORMATAÇÕES</h1>
+    <h2>Código-fonte / Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Para representar códigos, usamos a tag CODE, que converte a fonte do código para uma monoespaçada.</p>
+    <p>Também é possível representar códigos com a identação, usando a tag PRE.
+        <pre>
+            <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR.)
+    else:
+        print(f'O número {num} é ÍMPAR.')
+            </code>
+        </pre></p>
+    <h2>Citações simples</h2>
+    <p>As citações simples são representadas pela tag Q.</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>As citações completas são representadas pela tag BLOCKQUOTE. É possível e recomendável utilizar o parâmetro CITE na blockquote para sinalizar o link que hospeda o documento citado. O parâmetro será reconhecido pelo navegador e por mecanismos de busca.</p>
+    <p>Segundo Daiane Teodoro de Melo, na sua Apostila de HTML para iniciantes:</p>
+    <blockquote cite="https://books.google.pt/books?id=aP5xDwAAQBAJ&pg=PA4&dq=html&hl=pt-PT&sa=X&ved=2ahUKEwik7u3J1IPvAhXGCewKHc3VB2EQ6AEwA3oECAYQAg#v=onepage&q=html&f=false">
+        A linguagem HTML (HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é dedicada à criação e exibição de páginas WEB.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>As abreviações são representadas pela tag ABBR. Esta tag pede o parâmetro TITLE, que armazena o significado da abreviação. Isto é útil para mecanismos de busca localizarem seu site.</p>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto invertido</h2>
+    <p>Podemos inverter textos utilizando a tag BDO. Esta tag pede o parâmetro DIR (direction), que pode ser RTL (right to left) ou LTR (left to right), que indica como os caracteres serão expostos no site.</p>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

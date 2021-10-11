@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(32, 31, 31);
+    text-align: center;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Para usar links externos devemos usar a <strong>tag A</strong>. A tag A pede a referência <strong>HREF (HyperText Reference)</strong>, na qual deve constar o link a ser acessado.</p>
+    <p>Para que o link externo não abra na mesma aba do seu site, mas sim numa aba nova, devemos usar o parâmetro <strong>TARGET</strong>, com indicação <strong>"_BLANK"</strong> e o parâmetro <strong>REL</strong>, com indicação <strong>"EXTERNAL"</strong></p>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    <p>Você também pode acessar o meu <a href="http://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YOUTUBE.</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Para utilizar links internos deve-se utilizar a mesma tag <strong>A</strong>, porém <em>a referência utilizada deve apontar para a página interna do site</em>, com <strong>REL = "NEXT"</strong>.</p>
+    <p>Esta é a primeira página do site. Para acessar a segunda página <a href="pag002.html" target="_self" rel="next">clique aqui</a>.</p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a>.</p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/exemplo.pdf" download="exemplo.pdf" type="application/pdf">Baixar o livro em <strong>PDF</strong>.</a></li>
+        <li><a href="livro/exemplo.zip" download="exemplo.zip" type="application/zip">Livro compactado em <strong>ZIP</strong>.</a></li>
+    </ul>
+</body>
+</html>
