@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 </head>
 
 <style>
@@ -15,11 +15,21 @@
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
+
+        /*Shorthand background
+            color > image > position > repeat  > attachment
+
+            **na documentação, o cover pode estar entre o repeat e o attachment, mas ainda não funciona
+
+            background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+        */
     }
 
     main {
         background-color: white;
-        width: 400px;
+        max-width: 300px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -31,6 +41,14 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolores odit delectus excepturi reprehenderit, cum aliquam enim! Id quo tempora architecto blanditiis quidem molestias, facilis iusto neque odio quam recusandae error autem ex incidunt velit iure eius commodi ab voluptatibus ad fugiat. Velit fuga esse minus molestias rem fugiat ea eveniet explicabo tempore numquam, possimus modi consectetur repellendus tenetur similique repudiandae eligendi optio delectus, beatae quam saepe nulla assumenda? Reiciendis illum id a eius, libero maxime excepturi vitae aspernatur similique magnam, doloremque veritatis et officia officiis placeat vel saepe sequi ducimus. Laudantium iusto delectus ea voluptas quos maiores perferendis asperiores!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolores odit delectus excepturi reprehenderit, cum aliquam enim! Id quo tempora architecto blanditiis quidem molestias, facilis iusto neque odio quam recusandae error autem ex incidunt velit iure eius commodi ab voluptatibus ad fugiat. Velit fuga esse minus molestias rem fugiat ea eveniet explicabo tempore numquam, possimus modi consectetur repellendus tenetur similique repudiandae eligendi optio delectus, beatae quam saepe nulla assumenda? Reiciendis illum id a eius, libero maxime excepturi vitae aspernatur similique magnam, doloremque veritatis et officia officiis placeat vel saepe sequi ducimus. Laudantium iusto delectus ea voluptas quos maiores perferendis asperiores!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolores odit delectus excepturi reprehenderit, cum aliquam enim! Id quo tempora architecto blanditiis quidem molestias, facilis iusto neque odio quam recusandae error autem ex incidunt velit iure eius commodi ab voluptatibus ad fugiat. Velit fuga esse minus molestias rem fugiat ea eveniet explicabo tempore numquam, possimus modi consectetur repellendus tenetur similique repudiandae eligendi optio delectus, beatae quam saepe nulla assumenda? Reiciendis illum id a eius, libero maxime excepturi vitae aspernatur similique magnam, doloremque veritatis et officia officiis placeat vel saepe sequi ducimus. Laudantium iusto delectus ea voluptas quos maiores perferendis asperiores!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolores odit delectus excepturi reprehenderit, cum aliquam enim! Id quo tempora architecto blanditiis quidem molestias, facilis iusto neque odio quam recusandae error autem ex incidunt velit iure eius commodi ab voluptatibus ad fugiat. Velit fuga esse minus molestias rem fugiat ea eveniet explicabo tempore numquam, possimus modi consectetur repellendus tenetur similique repudiandae eligendi optio delectus, beatae quam saepe nulla assumenda? Reiciendis illum id a eius, libero maxime excepturi vitae aspernatur similique magnam, doloremque veritatis et officia officiis placeat vel saepe sequi ducimus. Laudantium iusto delectus ea voluptas quos maiores perferendis asperiores!</p>
+
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolores odit delectus excepturi reprehenderit, cum aliquam enim! Id quo tempora architecto blanditiis quidem molestias, facilis iusto neque odio quam recusandae error autem ex incidunt velit iure eius commodi ab voluptatibus ad fugiat. Velit fuga esse minus molestias rem fugiat ea eveniet explicabo tempore numquam, possimus modi consectetur repellendus tenetur similique repudiandae eligendi optio delectus, beatae quam saepe nulla assumenda? Reiciendis illum id a eius, libero maxime excepturi vitae aspernatur similique magnam, doloremque veritatis et officia officiis placeat vel saepe sequi ducimus. Laudantium iusto delectus ea voluptas quos maiores perferendis asperiores!</p>
     </main>
 </body>
