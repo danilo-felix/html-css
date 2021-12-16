@@ -13,6 +13,13 @@ td, th {
     padding: 10px;
 }
 
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
 thead, tfoot {
     background-color: grey;
     color: white;
@@ -21,7 +28,6 @@ thead, tfoot {
 tr:hover {
     background-color: rgb(139, 44, 44);
     color: white;
-    font-weight: 600;
     transition: 0.3s;
 }
 
