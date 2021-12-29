@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .square {
+            padding: 20px;
+        }
+
+        .square:hover {
+            background-color: forestgreen;
+            color: white;
+        }
+
+        .rectangle-h {
+            padding: 20px 0;
+        }
+
+        .rectangle-h:hover {
+            background-color: gold;
+        }
+
+        .rectangle-v {
+            padding: 0 25px;
+        }
+
+        .rectangle-v:hover {
+            background-color: darkred;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="rectangle-h" colspan="4">A</td>
+            <td class="rectangle-v" rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td class="rectangle-v" rowspan="4">C</td>
+            <td class="square">D</td>
+            <td class="square">E</td>
+            <td class="square">F</td>
+        </tr>
+
+        <tr>
+            <td class="square">G</td>
+            <td class="square">H</td>
+            <td class="square">I</td>
+        </tr>
+
+        <tr>
+            <td class="square">J</td>
+            <td class="square">L</td>
+            <td class="square">M</td>
+        </tr>
+
+        <tr>
+            <td class="rectangle-h" colspan="4">N</td>
+        </tr>
+    </table>
+
+</body>
+</html>
